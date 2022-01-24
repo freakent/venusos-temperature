@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "*** starting FreakEnt Temperature ***"
+exec 2>&1
+HOME=/data/freakent/temperature exec /data/freakent/temperature/freakent-temperature.py
